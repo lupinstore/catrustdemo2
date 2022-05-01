@@ -1,0 +1,54 @@
+.carousel-login-container{position:absolute;top:100px;z-index:2;max-width:1270px;padding:0;width:100%;left:50%;transform:translateX(-50%)}
+.login-edit .carousel-login-container{position:relative;left:auto;top:auto;transform:none}
+.carousel-login-container>.login{max-width:500px;border:2px solid #dedede;border-radius:20px;overflow:hidden}
+.carousel-login-container .login{background-color:rgba(255,255,255,0.5)}
+.carousel-login-container .login form .form-group label{font-size:16px;text-transform:uppercase}
+.carousel-login-container .login .btn{width:100%;color:#000;background-color:#f6a800;text-transform:uppercase;padding:6px}
+.carousel-login-container .login .passwordOptions{order:1;width:100%;padding-top:10px}
+.carousel-login-container .login .checkbox{color:#005499;position:static;margin:0;display:inline-block;padding:0 5px 0;border-right:2px solid #00205c}
+.carousel-login-container .login .checkbox label{padding-left:5px;color:#00205c}
+.carousel-login-container .login .checkbox label:hover{color:#005499}
+.carousel-login-container .login .checkbox input{margin-left:0;width:auto;position:relative}
+.carousel-login-container .login .login-need-help{margin:1px 0 0;float:none;display:inline-block;vertical-align:middle;padding:0 0 0 5px}
+.carousel-login-container .login .enable_disclosures a{text-transform:uppercase;display:inline-block;min-width:155px;font-size:18px;font-family:"Montserrat",sans-serif;line-height:36px;text-align:center;background:#FFF;text-decoration:none;border:1px solid #00205c;outline:0;padding:0 30px;-webkit-border-radius:4px;border-radius:4px;background-clip:padding-box}
+.carousel-login-container .login a{color:#00205c}
+.carousel-login-container .login a:hover{color:#005499}
+.carousel-login-container .login .button.section{width:85%;margin:0 28px;border-radius:4px}
+.carousel-login-container .login .login-tabs span{font-size:18px;color:#00205c;background-color:rgba(255,255,255,0.5);border-right:2px solid #dedede;border-bottom:2px solid #dedede;text-transform:uppercase}
+.carousel-login-container .login .login-tabs span.last{border-right:0}
+.carousel-login-container .login .login-tabs span.active{background-color:#005499;color:#fff}
+.carousel-login-container .login .mobile-login .btn{width:85%}
+@media(max-width:767px){.carousel-login-container .login{padding-top:0;text-align:center}
+}
+.carousel-login-container .login .mobile-guide{font-family:"Montserrat",sans-serif;margin-bottom:20px}
+.carousel-login-container .login .mobile-guide p{color:#fff;background-color:#005499;padding-top:20px;padding-bottom:20px;text-transform:uppercase}
+.carousel-login-container .login-form p{float:right}
+.carousel-login-container .login-form .toggle-login-container p{float:none}
+.carousel-login-container .login-form form{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between}
+.carousel-login-container .login-form .form-group{width:100%}
+.carousel-login-container .login-form.login-Treasury .button.section{background:transparent}
+.carousel-login-container .login-form.login-Treasury .btn-primary,.carousel-login-container .login-form.login-Treasury .btn-primary:visited{color:#000;font-size:14px}
+@media screen and (min-width:768px) and (max-width:999px){.carousel-login-container .login-form.login-Treasury .btn-primary,.carousel-login-container .login-form.login-Treasury .btn-primary:visited{width:295px}
+}
+@media screen and (min-width:1000px){.carousel-login-container .login-form.login-Treasury .btn-primary,.carousel-login-container .login-form.login-Treasury .btn-primary:visited{width:410px}
+}
+@media(max-width:500px){.carousel-login-container .login-form.login-Treasury.login .button.section{margin:0}
+}
+.carousel-login-container .enable_disclosures p{float:none;position:static;clear:both}
+@media(max-width:767px){.carousel-login-container{top:167px}
+.carousel-login-container .passwordOptions{width:100%;padding-top:10px}
+.carousel-login-container .passwordOptions .checkbox{float:none;padding-right:10px}
+.carousel-login-container .passwordOptions .checkbox input{vertical-align:top}
+.carousel-login-container .passwordOptions .login-need-help{vertical-align:unset}
+.carousel-login-container .login-button-container{width:100%;padding:5px 20px}
+}
+@media(max-width:500px){.carousel-login-container{top:142px;width:90%}
+.carousel-login-container .login .login-tabs span{font-size:15px}
+}
+@media(max-width:767px){.carousel-login-container .login-disabled{padding:20px}
+}
+.carousel-login-container .commons_text p{margin:8px 0}
+.carousel-login-container .login-v2.login{background-color:rgba(255,255,255,0.85)}
+.carousel-login-container .login-v2.login .login-form.login-Personal{padding:20px 30px}
+.login-main{width:100%;height:100vh;min-height:800px;max-height:1200px;position:relative}
+.cbt-loginbg{height:100%;width:100%;position:absolute;top:0;left:0;background-size:cover}
